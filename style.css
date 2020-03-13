@@ -46,7 +46,7 @@
     background-color: lightgrey;
     background-image: url(https://www.leonardoausili.com/377-large_default/queenkey-b-n-tastiera-semplificata.jpg);
     background-size: cover;
-    
+
 }
 .quinto-prodotto {
     width: 250px;
@@ -55,6 +55,8 @@
     position: absolute;
     left: 260px;
     bottom: 280px;
+    background-image: url(https://images-na.ssl-images-amazon.com/images/I/61pDLcCFsdL._SX466_.jpg);
+    background-size: cover;
 
 }
 .sesto-prodotto {
@@ -64,4 +66,6 @@
     position: absolute;
     left: 520px;
     bottom: 280px;
+    background-image: url(https://www.sony.it/image/a9bd3d4cc0dac35199d6d92078bfe331?fmt=pjpeg&wid=330&bgcolor=FFFFFF&bgc=FFFFFF);
+    background-size: cover;
 }
