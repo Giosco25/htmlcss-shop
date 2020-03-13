@@ -6,66 +6,27 @@
 .prodotti {
     width: 1000px;
     height: 800px;
-    background: black;
+    background: red;
     margin-left: 500px;
     margin-top: 100px;
-    position:relative;
+
 }
-.primo-prodotto {
+.prodotto {
     width: 250px;
     height: 250px;
     background-color: red;
-    background-image: url(https://images.eprice.it/nobrand/0/hres/057/207825057/DAM207825057-1-fefdba93-26a8-48d6-a837-6a03e7f3b41b.jpg);
-    background-size: cover;
-}
-.secondo-prodotto {
-    width: 250px;
-    height: 250px;
-    background-color: yellow;
-    background-image: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MHA22?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1465862227050);
-    background-size: cover;
-    position:absolute;
-    left: 520px;
-    bottom: 550px;
+    display: inline-block;
+    margin-right: 2px;
+    text-align: center;
+    position: relative;
 
 }
-.terzo-prodotto {
-    width: 250px;
-    height: 250px;
-    background-color: brown;
-    background-image: url(https://images-na.ssl-images-amazon.com/images/I/61hzuoXwjqL._SL1500_.jpg);
-    background-size: cover;
+.prodotto span{
+    display:none;
     position: absolute;
-    left: 260px;
-    bottom: 550px;
-
+    bottom:0;
+    left: 50%;
 }
-.quarto-prodotto {
-    width: 250px;
-    height: 250px;
-    background-color: lightgrey;
-    background-image: url(https://www.leonardoausili.com/377-large_default/queenkey-b-n-tastiera-semplificata.jpg);
-    background-size: cover;
-
-}
-.quinto-prodotto {
-    width: 250px;
-    height: 250px;
-    background-color: green;
-    position: absolute;
-    left: 260px;
-    bottom: 280px;
-    background-image: url(https://images-na.ssl-images-amazon.com/images/I/61pDLcCFsdL._SX466_.jpg);
-    background-size: cover;
-
-}
-.sesto-prodotto {
-    width: 250px;
-    height:250px;
-    background-color: purple;
-    position: absolute;
-    left: 520px;
-    bottom: 280px;
-    background-image: url(https://www.sony.it/image/a9bd3d4cc0dac35199d6d92078bfe331?fmt=pjpeg&wid=330&bgcolor=FFFFFF&bgc=FFFFFF);
-    background-size: cover;
+.prodotto:hover span{
+    display:block;
 }
